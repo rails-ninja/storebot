@@ -66,111 +66,114 @@
   font-family: 'Itim', cursive;
   font-size: 48px !important;
   color: black; }
+  /* line 75, site.css.scss */
+  .cursive:hover {
+    color: red !important; }
 
-/* line 77, site.css.scss */
+/* line 80, site.css.scss */
 .itim {
   font-family: 'Itim', cursive; }
 
-/* line 81, site.css.scss */
+/* line 84, site.css.scss */
 .main {
   min-height: 700px; }
 
-/* line 85, site.css.scss */
+/* line 88, site.css.scss */
 .breadcrumb {
   border-bottom: 1px solid red;
   background-color: #fff !important;
   max-width: 250px;
   border-radius: 0 !important; }
-  /* line 90, site.css.scss */
+  /* line 93, site.css.scss */
   .breadcrumb li {
     font-size: 16px;
     color: black !important; }
-    /* line 93, site.css.scss */
+    /* line 96, site.css.scss */
     .breadcrumb li a {
       color: black !important; }
 
-/* line 99, site.css.scss */
+/* line 102, site.css.scss */
 .btn-custom {
   border-radius: 6px;
   background: black;
   border: 2px solid red !important;
   color: #fff; }
-  /* line 104, site.css.scss */
+  /* line 107, site.css.scss */
   .btn-custom:hover {
     background: red;
     color: black !important; }
 
-/* line 111, site.css.scss */
+/* line 114, site.css.scss */
 .product-card img {
   border: 3px solid gray; }
-/* line 114, site.css.scss */
+/* line 117, site.css.scss */
 .product-card .b-b {
   border-bottom: 3px solid red; }
-/* line 117, site.css.scss */
+/* line 120, site.css.scss */
 .product-card p {
   font-size: 13px; }
-/* line 120, site.css.scss */
+/* line 123, site.css.scss */
 .product-card .panel-heading {
   padding-top: 1px;
   padding-bottom: 1px;
   margin-bottom: -10px; }
 
-/* line 127, site.css.scss */
+/* line 130, site.css.scss */
 .footer {
   border-top: 1px solid black; }
 
-/* line 131, site.css.scss */
+/* line 134, site.css.scss */
 .input-custom {
   background-color: black !important;
   border: 3px solid red !important;
   color: #fff !important;
   font-weight: bold !important; }
 
-/* line 138, site.css.scss */
+/* line 141, site.css.scss */
 .panel-dialog {
   background-color: #fafafa;
   margin-bottom: 5px;
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 146, site.css.scss */
+/* line 149, site.css.scss */
 .cart {
   position: relative; }
 
-/* line 150, site.css.scss */
+/* line 153, site.css.scss */
 .cart-heading {
   position: absolute; }
 
-/* line 154, site.css.scss */
+/* line 157, site.css.scss */
 #mainDiv {
   height: 100px;
   width: 80px;
   position: relative;
   background: #3beadc; }
 
-/* line 161, site.css.scss */
+/* line 164, site.css.scss */
 .min_height {
   position: relative; }
 
-/* line 165, site.css.scss */
+/* line 168, site.css.scss */
 #borderLeft {
   border-left: 2px solid gray;
   position: absolute;
   top: 30%;
   bottom: 20%; }
 
-/* line 172, site.css.scss */
+/* line 175, site.css.scss */
 .header-row {
   max-height: 200px;
   position: relative; }
-  /* line 175, site.css.scss */
+  /* line 178, site.css.scss */
   .header-row .col {
     float: left;
     width: 33.33333%; }
-  /* line 179, site.css.scss */
+  /* line 182, site.css.scss */
   .header-row .col-2 {
     position: relative;
     left: -20px; }
-  /* line 183, site.css.scss */
+  /* line 186, site.css.scss */
   .header-row .col-3 {
     position: relative; }

@@ -17,7 +17,7 @@
   <body class='simple-bg'>
     <header>
       <nav class='navbar navbar-custom'>
-        <div class='container-fluid'>
+        <div class='container'>
           <div class='navbar-header'>
             <button aria-expanded='false' class='navbar-toggle collapsed' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
               <span class='sr-only'>Toggle navigation</span>
@@ -64,18 +64,20 @@
           </div>
         </div>
       </nav>
-      <div class='container-fluid hidden-xs'>
+      <div class='container hidden-xs'>
         <div class='row'>
           <div class='col-md-4 col-sm-4 col-xs-4 min_height'>
-            <a href='/storebot/support'>
+            <a href='/support'>
               <img class='img-responsive' src='/storebot/images/1.jpg'>
             </a>
           </div>
           <div class='col-md-4 col-sm-4 col-xs-4 min_height'>
-            <img class='img-responsive' src='/storebot/images/2.jpg'>
+            <a href='/cart'>
+              <img class='img-responsive' src='/storebot/images/2.jpg'>
+            </a>
           </div>
           <div class='col-md-4 col-sm-4 col-xs-4 min_height'>
-            <a href='/storebot/map'>
+            <a href='/map'>
               <img class='img-responsive' src='/storebot/images/3.jpg'>
             </a>
           </div>
@@ -84,7 +86,7 @@
       <br>
       <br>
     </header>
-    <div class='container-fluid main'>
+    <div class='container main'>
       <div class='visible-xs mobile-menu'>
         <ul class='nav nav-pills'>
           <li>
@@ -128,15 +130,45 @@
         <div class='col-md-10 col-sm-9 col-xs-12'>
           <h3>Cлужба поддержки</h3>
           <div class='row'>
-            <div class='col-md-6'>
-              <div class='input-group'>
-                <input class='form-control' placeholder='Введите текст' type='text'>
+            <div class='col-md-10'>
+              <div class='panel-dialog'>
+                <div class='panel-heading'>
+                  <h4>Я помогу вам ее решить</h4>
+                  <p>22.09.2016 21:31</p>
+                </div>
+              </div>
+              <div class='panel-dialog'>
+                <div class='panel-heading' style='text-align: right;'>
+                  <h4>Сложная</h4>
+                  <p>22.09.2016 21:30</p>
+                </div>
+              </div>
+              <div class='panel-dialog'>
+                <div class='panel-heading'>
+                  <h4>Какая?</h4>
+                  <p>22.09.2016 21:25</p>
+                </div>
+              </div>
+              <div class='panel-dialog'>
+                <div class='panel-heading' style='text-align: right;'>
+                  <h4>
+                    У меня проблема
+                  </h4>
+                  <p>22.09.2016 21:21</p>
+                </div>
+              </div>
+              <div class='input-group input-group-lg'>
+                <input class='form-control input-custom' placeholder='Введите текст' type='text'>
                 <span class='input-group-btn'>
                   <button class='btn btn-default' type='button'>Отправить</button>
                 </span>
               </div>
             </div>
           </div>
+          <br>
+          <br>
+          <br>
+          <br>
         </div>
       </div>
     </div>
@@ -145,7 +177,7 @@
         shopbot.biz
         <small>
           <i class='fa fa-copyright'></i>
-          2015
+          2016
         </small>
       </h3>
     </div>

@@ -15,102 +15,120 @@
     font-size: 18px; }
 
 /* line 22, site.css.scss */
+.min_height img {
+  width: 90%; }
+
+/* line 26, site.css.scss */
 .with_borders {
   border-left: 2px solid #AAB2BD;
   border-right: 2px solid #AAB2BD; }
 
-/* line 28, site.css.scss */
+/* line 32, site.css.scss */
 .nav-custom .heading {
   font-size: 20px;
   color: red;
   padding: 10px; }
-/* line 33, site.css.scss */
+/* line 37, site.css.scss */
 .nav-custom li {
   text-align: center;
   border-radius: 6px;
   background: black;
   border: 2px solid red; }
-  /* line 38, site.css.scss */
+  /* line 42, site.css.scss */
   .nav-custom li a {
     color: #fff;
     font-size: 18px; }
-    /* line 41, site.css.scss */
+    /* line 45, site.css.scss */
     .nav-custom li a:hover {
       color: black;
       background: red !important; }
 
-/* line 49, site.css.scss */
+/* line 53, site.css.scss */
 .mobile-menu {
   margin-bottom: 30px; }
-  /* line 51, site.css.scss */
+  /* line 55, site.css.scss */
   .mobile-menu li {
     text-align: center;
     border-radius: 6px;
     background: black;
     border: 2px solid red; }
-    /* line 56, site.css.scss */
+    /* line 60, site.css.scss */
     .mobile-menu li a {
       color: #fff;
       font-size: 12px; }
-      /* line 59, site.css.scss */
+      /* line 63, site.css.scss */
       .mobile-menu li a:hover {
         color: black;
         background: red !important; }
 
-/* line 67, site.css.scss */
+/* line 71, site.css.scss */
 .cursive {
   font-family: 'Itim', cursive;
   font-size: 48px !important;
   color: black; }
 
-/* line 73, site.css.scss */
+/* line 77, site.css.scss */
 .itim {
   font-family: 'Itim', cursive; }
 
-/* line 77, site.css.scss */
+/* line 81, site.css.scss */
 .main {
   min-height: 700px; }
 
-/* line 81, site.css.scss */
+/* line 85, site.css.scss */
 .breadcrumb {
   border-bottom: 1px solid red;
   background-color: #fff !important;
   max-width: 250px;
   border-radius: 0 !important; }
-  /* line 86, site.css.scss */
+  /* line 90, site.css.scss */
   .breadcrumb li {
     font-size: 16px;
     color: black !important; }
-    /* line 89, site.css.scss */
+    /* line 93, site.css.scss */
     .breadcrumb li a {
       color: black !important; }
 
-/* line 95, site.css.scss */
+/* line 99, site.css.scss */
 .btn-custom {
   border-radius: 6px;
   background: black;
   border: 2px solid red !important;
   color: #fff; }
-  /* line 100, site.css.scss */
+  /* line 104, site.css.scss */
   .btn-custom:hover {
     background: red;
     color: black !important; }
 
-/* line 107, site.css.scss */
+/* line 111, site.css.scss */
 .product-card img {
   border: 3px solid gray; }
-/* line 110, site.css.scss */
+/* line 114, site.css.scss */
 .product-card .b-b {
   border-bottom: 3px solid red; }
-/* line 113, site.css.scss */
+/* line 117, site.css.scss */
 .product-card p {
   font-size: 13px; }
-/* line 116, site.css.scss */
+/* line 120, site.css.scss */
 .product-card .panel-heading {
   padding-top: 1px;
   padding-bottom: 1px;
   margin-bottom: -10px; }
 
-/* line 123, site.css.scss */
+/* line 127, site.css.scss */
 .footer {
   border-top: 1px solid black; }
+
+/* line 131, site.css.scss */
+.input-custom {
+  background-color: black !important;
+  border: 3px solid red !important;
+  color: #fff !important;
+  font-weight: bold !important; }
+
+/* line 138, site.css.scss */
+.panel-dialog {
+  background-color: #fafafa;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px; }

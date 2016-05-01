@@ -132,3 +132,45 @@
   margin-bottom: 5px;
   padding-top: 10px;
   padding-bottom: 10px; }
+
+/* line 146, site.css.scss */
+.cart {
+  position: relative; }
+
+/* line 150, site.css.scss */
+.cart-heading {
+  position: absolute; }
+
+/* line 154, site.css.scss */
+#mainDiv {
+  height: 100px;
+  width: 80px;
+  position: relative;
+  background: #3beadc; }
+
+/* line 161, site.css.scss */
+.min_height {
+  position: relative; }
+
+/* line 165, site.css.scss */
+#borderLeft {
+  border-left: 2px solid gray;
+  position: absolute;
+  top: 30%;
+  bottom: 20%; }
+
+/* line 172, site.css.scss */
+.header-row {
+  max-height: 200px;
+  position: relative; }
+  /* line 175, site.css.scss */
+  .header-row .col {
+    float: left;
+    width: 33.33333%; }
+  /* line 179, site.css.scss */
+  .header-row .col-2 {
+    position: relative;
+    left: -20px; }
+  /* line 183, site.css.scss */
+  .header-row .col-3 {
+    position: relative; }

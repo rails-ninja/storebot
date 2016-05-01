@@ -1,3 +1,18 @@
 /* line 3, site.css.scss */
 .simple-bg {
+  padding-top: 10px;
   background: #fff !important; }
+
+/* line 10, site.css.scss */
+.navbar-custom .navbar-nav li {
+  border-bottom: 1px solid red;
+  margin: 10px; }
+  /* line 13, site.css.scss */
+  .navbar-custom .navbar-nav li a {
+    color: black;
+    font-size: 18px; }
+
+/* line 21, site.css.scss */
+.with_borders {
+  border-left: 2px solid #AAB2BD;
+  border-right: 2px solid #AAB2BD; }

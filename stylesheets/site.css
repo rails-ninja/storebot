@@ -136,44 +136,56 @@
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 149, site.css.scss */
+/* line 148, site.css.scss */
 .cart {
   position: relative; }
 
-/* line 153, site.css.scss */
+/* line 152, site.css.scss */
 .cart-heading {
   position: absolute; }
 
-/* line 157, site.css.scss */
+/* line 156, site.css.scss */
 #mainDiv {
   height: 100px;
   width: 80px;
   position: relative;
   background: #3beadc; }
 
-/* line 164, site.css.scss */
+/* line 163, site.css.scss */
 .min_height {
   position: relative; }
 
-/* line 168, site.css.scss */
+/* line 167, site.css.scss */
 #borderLeft {
   border-left: 2px solid gray;
   position: absolute;
   top: 30%;
   bottom: 20%; }
 
-/* line 175, site.css.scss */
+/* line 174, site.css.scss */
 .header-row {
   max-height: 200px;
   position: relative; }
-  /* line 178, site.css.scss */
+  /* line 177, site.css.scss */
   .header-row .col {
     float: left;
     width: 33.33333%; }
-  /* line 182, site.css.scss */
+  /* line 181, site.css.scss */
   .header-row .col-2 {
     position: relative;
     left: -20px; }
-  /* line 186, site.css.scss */
+  /* line 185, site.css.scss */
   .header-row .col-3 {
     position: relative; }
+
+/* line 190, site.css.scss */
+.red-link {
+  font-size: 20px;
+  color: #333;
+  padding-bottom: 5px;
+  border-bottom: 1px solid red; }
+  /* line 195, site.css.scss */
+  .red-link:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: #333; }

@@ -1,18 +1,38 @@
-/* line 3, site.css.scss */
+/* line 2, site.css.scss */
 .simple-bg {
   padding-top: 10px;
   background: #fff !important; }
 
-/* line 10, site.css.scss */
+/* line 9, site.css.scss */
 .navbar-custom .navbar-nav li {
   border-bottom: 1px solid red;
   margin: 10px; }
-  /* line 13, site.css.scss */
+  /* line 12, site.css.scss */
   .navbar-custom .navbar-nav li a {
     color: black;
     font-size: 18px; }
 
-/* line 21, site.css.scss */
+/* line 20, site.css.scss */
 .with_borders {
   border-left: 2px solid #AAB2BD;
   border-right: 2px solid #AAB2BD; }
+
+/* line 26, site.css.scss */
+.nav-custom .heading {
+  font-size: 20px;
+  color: red;
+  padding: 10px; }
+/* line 31, site.css.scss */
+.nav-custom li {
+  text-align: center;
+  border-radius: 6px;
+  background: black;
+  border: 2px solid red; }
+  /* line 36, site.css.scss */
+  .nav-custom li a {
+    color: #fff;
+    font-size: 18px; }
+    /* line 39, site.css.scss */
+    .nav-custom li a:hover {
+      color: black;
+      background: red !important; }

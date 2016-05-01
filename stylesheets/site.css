@@ -1,38 +1,89 @@
-/* line 2, site.css.scss */
+@import url(https://fonts.googleapis.com/css?family=Itim);
+/* line 4, site.css.scss */
 .simple-bg {
   padding-top: 10px;
   background: #fff !important; }
 
-/* line 9, site.css.scss */
+/* line 11, site.css.scss */
 .navbar-custom .navbar-nav li {
   border-bottom: 1px solid red;
   margin: 10px; }
-  /* line 12, site.css.scss */
+  /* line 14, site.css.scss */
   .navbar-custom .navbar-nav li a {
     color: black;
     font-size: 18px; }
 
-/* line 20, site.css.scss */
+/* line 22, site.css.scss */
 .with_borders {
   border-left: 2px solid #AAB2BD;
   border-right: 2px solid #AAB2BD; }
 
-/* line 26, site.css.scss */
+/* line 28, site.css.scss */
 .nav-custom .heading {
   font-size: 20px;
   color: red;
   padding: 10px; }
-/* line 31, site.css.scss */
+/* line 33, site.css.scss */
 .nav-custom li {
   text-align: center;
   border-radius: 6px;
   background: black;
   border: 2px solid red; }
-  /* line 36, site.css.scss */
+  /* line 38, site.css.scss */
   .nav-custom li a {
     color: #fff;
     font-size: 18px; }
-    /* line 39, site.css.scss */
+    /* line 41, site.css.scss */
     .nav-custom li a:hover {
       color: black;
       background: red !important; }
+
+/* line 51, site.css.scss */
+.cursive {
+  font-family: 'Itim', cursive;
+  font-size: 48px !important;
+  color: black; }
+
+/* line 57, site.css.scss */
+.main {
+  min-height: 700px; }
+
+/* line 61, site.css.scss */
+.breadcrumb {
+  border-bottom: 1px solid red;
+  background-color: #fff !important;
+  max-width: 200px;
+  border-radius: 0 !important; }
+  /* line 66, site.css.scss */
+  .breadcrumb li {
+    font-size: 18px;
+    color: black !important; }
+    /* line 69, site.css.scss */
+    .breadcrumb li a {
+      color: black !important; }
+
+/* line 75, site.css.scss */
+.btn-custom {
+  border-radius: 6px;
+  background: black;
+  border: 2px solid red !important;
+  color: #fff; }
+  /* line 80, site.css.scss */
+  .btn-custom:hover {
+    background: red;
+    color: black !important; }
+
+/* line 87, site.css.scss */
+.product-card img {
+  border: 3px solid gray; }
+/* line 90, site.css.scss */
+.product-card .b-b {
+  border-bottom: 3px solid red; }
+/* line 93, site.css.scss */
+.product-card p {
+  font-size: 13px; }
+/* line 97, site.css.scss */
+.product-card .panel-heading {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: -10px; }

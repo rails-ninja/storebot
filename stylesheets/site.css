@@ -256,3 +256,32 @@
 .min {
   position: relative;
   top: -5px; }
+
+/* line 269, site.css.scss */
+.img-red {
+  border: 2px solid red; }
+
+/* line 274, site.css.scss */
+.links_block a {
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: black;
+  border-bottom: 2px solid red;
+  margin: 5px; }
+  /* line 280, site.css.scss */
+  .links_block a:hover {
+    text-decoration: none; }
+
+@media screen and (max-width: 640px) {
+  /* line 288, site.css.scss */
+  .links_block a {
+    font-size: 14px; }
+
+  /* line 292, site.css.scss */
+  .mobile {
+    font-size: 14px; } }
+/* line 297, site.css.scss */
+.page_subheader {
+  max-width: 250px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid red; }

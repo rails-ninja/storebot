@@ -216,3 +216,43 @@
     opacity: 0.8;
     text-decoration: none;
     color: #333; }
+
+/* line 227, site.css.scss */
+.panel-id {
+  border: 1px solid red !important;
+  background-color: black !important; }
+  /* line 230, site.css.scss */
+  .panel-id .panel-heading {
+    color: #fff; }
+  /* line 233, site.css.scss */
+  .panel-id input {
+    background-color: black !important;
+    border-radius: 0 !important; }
+    /* line 236, site.css.scss */
+    .panel-id input:focus {
+      border: 3px solid red; }
+  /* line 240, site.css.scss */
+  .panel-id .text {
+    margin-bottom: 10px; }
+  /* line 244, site.css.scss */
+  .panel-id .icons a {
+    font-size: 18px;
+    margin: 5px;
+    color: #fff; }
+    /* line 248, site.css.scss */
+    .panel-id .icons a:hover {
+      opacity: 0.8;
+      text-decoration: none; }
+
+/* line 256, site.css.scss */
+.red {
+  color: red !important; }
+
+/* line 260, site.css.scss */
+.white {
+  color: #fff !important; }
+
+/* line 264, site.css.scss */
+.min {
+  position: relative;
+  top: -5px; }

@@ -7,7 +7,7 @@
     <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' name='viewport'>
     <title>Главная</title>
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link href="/storebot/stylesheets/site.css" rel="stylesheet" />
+    <link href="http://rails-ninja.ru/storebot/stylesheets/site.css" rel="stylesheet" />
     <!-- = stylesheet_link_tag "site" -->
     <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' rel='stylesheet'>
     <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css' rel='stylesheet'>
@@ -22,9 +22,10 @@
           <div class='navbar-header'>
             <button aria-expanded='false' class='navbar-toggle collapsed' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
               <span class='sr-only'>Toggle navigation</span>
-              <span class='fa fa-bars'></span>
+              Меню
+              <span class='fa fa-bars fa-fw'></span>
             </button>
-            <a class='navbar-brand cursive' href='/storebot/'>shopbot.biz</a>
+            <a class='navbar-brand cursive' href='/storebot'>shopbot.biz</a>
           </div>
           <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
             <ul class='nav navbar-nav'></ul>
@@ -85,7 +86,30 @@
         </div>
       </div>
       <br>
-      <br>
+      <div class='container'>
+        <div class='visible-xs mobile-menu'>
+          <ul class='nav nav-pills'>
+            <li class='w-33'>
+              <a href='/storebot/support'>
+                <i class='fa fa-phone fa-fw'></i>
+                Поддержка
+              </a>
+            </li>
+            <li class='w-33'>
+              <a href='/storebot/cart'>
+                <i class='fa fa-shopping-cart fa-fw'></i>
+                Корзина
+              </a>
+            </li>
+            <li class='w-33'>
+              <a href='/storebot/map'>
+                <i class='fa fa-map-o fa-fw'></i>
+                Карта
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <div class='container main'>
       <div class='visible-xs mobile-menu'>

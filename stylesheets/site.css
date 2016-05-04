@@ -3,7 +3,7 @@
 @font-face {
   font-family: Gabriola;
   /* Имя шрифта */
-  src: url(/storebot/fonts/ufonts.com_gabriola.ttf);
+  src: url(/fonts/ufonts.com_gabriola.ttf);
   /* Путь к файлу со шрифтом */ }
 /* line 10, site.css.scss */
 .page_header {
@@ -283,8 +283,8 @@
   top: -5px; }
 
 /* line 297, site.css.scss */
-.img-red {
-  border: 2px solid red; }
+.img-gray {
+  border: 2px solid #4F4F4F; }
 
 /* line 302, site.css.scss */
 .links_block a {
@@ -343,25 +343,20 @@
   left: 5px;
   font-weight: bold !important; }
 
-/* line 364, site.css.scss */
-.tabl .sp td {
-  padding-top: 15px !important;
-  padding-bottom: 20px !important;
-  border-bottom: 1px solid red !important; }
-
-/* line 371, site.css.scss */
+/* line 368, site.css.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
 .table > tfoot > tr > th,
 .table > thead > tr > td,
 .table > thead > tr > th {
-  padding: 8px !important;
   line-height: 1.42857 !important;
-  vertical-align: top !important;
-  border-top: 1px solid #fff !important;
-  border-bottom: 1px solid red !important; }
+  vertical-align: top !important; }
 
-/* line 384, site.css.scss */
+/* line 378, site.css.scss */
 .w-33 {
   width: 32.33333%; }
+
+/* line 383, site.css.scss */
+.dropdown-menu li {
+  border-bottom: 1px solid #fff !important; }

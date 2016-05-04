@@ -3,7 +3,7 @@
 @font-face {
   font-family: Gabriola;
   /* Имя шрифта */
-  src: url(/fonts/ufonts.com_gabriola.ttf);
+  src: url(/storebot/fonts/ufonts.com_gabriola.ttf);
   /* Путь к файлу со шрифтом */ }
 /* line 10, site.css.scss */
 .page_header {
@@ -343,7 +343,7 @@
   left: 5px;
   font-weight: bold !important; }
 
-/* line 368, site.css.scss */
+/* line 367, site.css.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -353,10 +353,10 @@
   line-height: 1.42857 !important;
   vertical-align: top !important; }
 
-/* line 378, site.css.scss */
+/* line 377, site.css.scss */
 .w-33 {
   width: 32.33333%; }
 
-/* line 383, site.css.scss */
+/* line 382, site.css.scss */
 .dropdown-menu li {
   border-bottom: 1px solid #fff !important; }

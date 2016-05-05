@@ -406,14 +406,18 @@
 /* line 435, site.css.scss */
 .fa.fa-star {
   color: black !important; }
+  /* line 437, site.css.scss */
+  .fa.fa-star:hover {
+    cursor: pointer !important; }
 
-/* line 439, site.css.scss */
+/* line 442, site.css.scss */
 .fa-star-o {
   color: black !important; }
-  /* line 441, site.css.scss */
+  /* line 444, site.css.scss */
   .fa-star-o:hover {
-    color: red !important; }
+    color: red !important;
+    cursor: pointer !important; }
 
-/* line 447, site.css.scss */
+/* line 451, site.css.scss */
 .product-header a {
   color: black !important; }

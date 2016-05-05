@@ -397,3 +397,24 @@
   border: 3px solid red;
   background: black;
   color: #fff; }
+
+/* line 431, site.css.scss */
+.icon-link:hover {
+  text-decoration: none; }
+
+/* line 436, site.css.scss */
+.fa-star {
+  font-size: 24px !important; }
+
+/* line 440, site.css.scss */
+.fa-star.black {
+  color: black !important;
+  font-size: 24px !important; }
+  /* line 443, site.css.scss */
+  .fa-star.black:hover {
+    color: red !important;
+    cursor: pointer; }
+
+/* line 449, site.css.scss */
+.fa-star.red {
+  color: red !important; }

@@ -379,37 +379,37 @@
   .pagination li a:hover {
     opacity: 0.8; }
 
-/* line 406, site.css.scss */
+/* line 405, site.css.scss */
 .price {
   color: red !important; }
 
 @media screen and (max-width: 640px) {
-  /* line 412, site.css.scss */
+  /* line 410, site.css.scss */
   .pagination li a {
     font-size: 9px !important; } }
-/* line 419, site.css.scss */
+/* line 416, site.css.scss */
 .comments figure {
   background: black;
   border: 3px solid red;
   color: #fff; }
-/* line 424, site.css.scss */
+/* line 421, site.css.scss */
 .comments .panel-default {
   border: 3px solid red;
   background: black;
   color: #fff; }
 
-/* line 431, site.css.scss */
+/* line 429, site.css.scss */
 .icon-link:hover {
   text-decoration: none;
   cursor: pointer; }
 
-/* line 437, site.css.scss */
+/* line 435, site.css.scss */
 .fa-star-o {
   color: black !important; }
-  /* line 439, site.css.scss */
+  /* line 437, site.css.scss */
   .fa-star-o:hover {
     color: red !important; }
 
-/* line 446, site.css.scss */
+/* line 443, site.css.scss */
 .product-header a {
   color: black !important; }

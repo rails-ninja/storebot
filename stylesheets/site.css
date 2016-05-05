@@ -387,37 +387,45 @@
   /* line 410, site.css.scss */
   .pagination li a {
     font-size: 9px !important; } }
-/* line 416, site.css.scss */
-.comments figure {
-  background: black;
-  border: 3px solid red;
-  color: #fff; }
-/* line 421, site.css.scss */
-.comments .panel-default {
-  border: 3px solid red;
-  background: black;
-  color: #fff; }
+/* line 415, site.css.scss */
+.comments {
+  margin-bottom: 50px; }
+  /* line 416, site.css.scss */
+  .comments figure {
+    background: black;
+    border: 3px solid red;
+    color: #fff; }
+  /* line 421, site.css.scss */
+  .comments .panel-default {
+    border: 3px solid red;
+    background: black;
+    color: #fff; }
 
-/* line 429, site.css.scss */
+/* line 430, site.css.scss */
 .icon-link:hover {
   text-decoration: none;
   cursor: pointer; }
 
-/* line 435, site.css.scss */
+/* line 436, site.css.scss */
 .fa.fa-star {
   color: black !important; }
-  /* line 437, site.css.scss */
+  /* line 438, site.css.scss */
   .fa.fa-star:hover {
     cursor: pointer !important; }
 
-/* line 442, site.css.scss */
+/* line 443, site.css.scss */
 .fa-star-o {
   color: black !important; }
-  /* line 444, site.css.scss */
+  /* line 445, site.css.scss */
   .fa-star-o:hover {
     color: red !important;
     cursor: pointer !important; }
 
-/* line 451, site.css.scss */
+/* line 452, site.css.scss */
 .product-header a {
   color: black !important; }
+
+/* line 457, site.css.scss */
+.btn-b-b {
+  border-radius: 0 !important;
+  border-bottom: 1px solid red !important; }

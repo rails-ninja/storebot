@@ -155,175 +155,182 @@
     color: black !important; }
 
 /* line 166, site.css.scss */
+.product-card .black-link {
+  color: black !important; }
+  /* line 168, site.css.scss */
+  .product-card .black-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid red; }
+/* line 173, site.css.scss */
 .product-card img {
   border: 3px solid gray; }
-/* line 169, site.css.scss */
+/* line 176, site.css.scss */
 .product-card .b-b {
   border-bottom: 3px solid red; }
-/* line 172, site.css.scss */
+/* line 179, site.css.scss */
 .product-card p {
   font-size: 13px; }
-/* line 175, site.css.scss */
+/* line 182, site.css.scss */
 .product-card .panel-heading {
   padding-top: 1px;
   padding-bottom: 1px;
   margin-bottom: -10px; }
 
-/* line 182, site.css.scss */
+/* line 189, site.css.scss */
 .footer {
   border-top: 1px solid black; }
 
-/* line 186, site.css.scss */
+/* line 193, site.css.scss */
 .input-custom {
   background-color: black !important;
   border: 3px solid red !important;
   color: #fff !important;
   font-weight: bold !important; }
 
-/* line 193, site.css.scss */
+/* line 200, site.css.scss */
 .panel-dialog {
   background-color: #fafafa;
   margin-bottom: 5px;
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 200, site.css.scss */
+/* line 207, site.css.scss */
 .cart {
   position: relative; }
 
-/* line 204, site.css.scss */
+/* line 211, site.css.scss */
 .cart-heading {
   position: absolute; }
 
-/* line 208, site.css.scss */
+/* line 215, site.css.scss */
 #mainDiv {
   height: 100px;
   width: 80px;
   position: relative;
   background: #3beadc; }
 
-/* line 215, site.css.scss */
+/* line 222, site.css.scss */
 .min_height {
   position: relative; }
 
-/* line 219, site.css.scss */
+/* line 226, site.css.scss */
 #borderLeft {
   border-left: 2px solid gray;
   position: absolute;
   top: 30%;
   bottom: 20%; }
 
-/* line 226, site.css.scss */
+/* line 233, site.css.scss */
 .header-row {
   max-height: 200px;
   position: relative; }
-  /* line 229, site.css.scss */
+  /* line 236, site.css.scss */
   .header-row .col {
     float: left;
     width: 33.33333%; }
-  /* line 233, site.css.scss */
+  /* line 240, site.css.scss */
   .header-row .col-2 {
     position: relative;
     left: -20px; }
-  /* line 237, site.css.scss */
+  /* line 244, site.css.scss */
   .header-row .col-3 {
     position: relative; }
 
-/* line 242, site.css.scss */
+/* line 249, site.css.scss */
 .red-link {
   font-size: 20px;
   color: #333;
   padding-bottom: 5px;
   border-bottom: 1px solid red; }
-  /* line 247, site.css.scss */
+  /* line 254, site.css.scss */
   .red-link:hover {
     opacity: 0.8;
     text-decoration: none;
     color: #333; }
 
-/* line 254, site.css.scss */
+/* line 261, site.css.scss */
 .panel-id {
   border: 1px solid red !important;
   background-color: black !important; }
-  /* line 257, site.css.scss */
+  /* line 264, site.css.scss */
   .panel-id .panel-heading {
     color: #fff; }
-  /* line 260, site.css.scss */
+  /* line 267, site.css.scss */
   .panel-id input {
     color: #fff !important;
     background-color: black !important;
     border-radius: 0 !important; }
-    /* line 264, site.css.scss */
+    /* line 271, site.css.scss */
     .panel-id input:focus {
       border: 3px solid red; }
-  /* line 268, site.css.scss */
+  /* line 275, site.css.scss */
   .panel-id .text {
     margin-bottom: 10px; }
-  /* line 272, site.css.scss */
+  /* line 279, site.css.scss */
   .panel-id .icons a {
     font-size: 18px;
     margin: 5px;
     color: #fff; }
-    /* line 276, site.css.scss */
+    /* line 283, site.css.scss */
     .panel-id .icons a:hover {
       opacity: 0.8;
       text-decoration: none; }
 
-/* line 284, site.css.scss */
+/* line 291, site.css.scss */
 .red {
   color: red !important; }
 
-/* line 288, site.css.scss */
+/* line 295, site.css.scss */
 .white {
   color: #fff !important; }
 
-/* line 292, site.css.scss */
+/* line 299, site.css.scss */
 .min {
   position: relative;
   top: -5px; }
 
-/* line 297, site.css.scss */
+/* line 304, site.css.scss */
 .img-gray {
   border: 2px solid #4F4F4F; }
 
-/* line 302, site.css.scss */
+/* line 309, site.css.scss */
 .links_block a {
   padding-bottom: 5px;
   font-size: 18px;
   color: black;
   border-bottom: 2px solid red;
   margin: 5px; }
-  /* line 308, site.css.scss */
+  /* line 315, site.css.scss */
   .links_block a:hover {
     text-decoration: none; }
 
 @media screen and (max-width: 640px) {
-  /* line 316, site.css.scss */
+  /* line 323, site.css.scss */
   .links_block a {
     font-size: 14px; }
 
-  /* line 320, site.css.scss */
+  /* line 327, site.css.scss */
   .mobile {
     font-size: 14px; } }
-/* line 325, site.css.scss */
+/* line 332, site.css.scss */
 .page_subheader {
   max-width: 250px;
   padding-bottom: 10px;
   border-bottom: 1px solid red; }
 
-/* line 331, site.css.scss */
+/* line 338, site.css.scss */
 .center {
   width: 150px;
   margin: 40px auto; }
 
-/* line 336, site.css.scss */
+/* line 343, site.css.scss */
 .add-color {
   color: #fff !important;
   border: 2px solid red !important;
   background-color: black !important;
   height: 36px !important; }
 
-/* line 343, site.css.scss */
+/* line 350, site.css.scss */
 .btn-minuse {
   color: red !important;
   border: 2px solid red !important;
@@ -333,7 +340,7 @@
   left: -5px;
   font-weight: bold !important; }
 
-/* line 353, site.css.scss */
+/* line 360, site.css.scss */
 .btn-pluss {
   color: red !important;
   border: 2px solid red !important;
@@ -343,7 +350,7 @@
   left: 5px;
   font-weight: bold !important; }
 
-/* line 367, site.css.scss */
+/* line 374, site.css.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -353,26 +360,68 @@
   line-height: 1.42857 !important;
   vertical-align: top !important; }
 
-/* line 377, site.css.scss */
+/* line 384, site.css.scss */
 .w-33 {
   width: 32.33333%; }
 
-/* line 382, site.css.scss */
+/* line 389, site.css.scss */
 .dropdown-menu li {
   border-bottom: 1px solid #fff !important; }
 
-/* line 387, site.css.scss */
+/* line 394, site.css.scss */
 .pagination li a {
   color: #fff !important;
   border-radius: 50% !important;
   margin: 0 5px !important;
   background-color: black !important;
   border: 2px solid #FF0000 !important; }
-  /* line 393, site.css.scss */
+  /* line 400, site.css.scss */
   .pagination li a:hover {
     opacity: 0.8; }
 
+/* line 406, site.css.scss */
+.price {
+  color: red !important; }
+
 @media screen and (max-width: 640px) {
-  /* line 400, site.css.scss */
+  /* line 412, site.css.scss */
   .pagination li a {
-    font-size: 10px !important; } }
+    font-size: 9px !important; } }
+/* line 418, site.css.scss */
+.comment-left {
+  background: url("/images/comment_left.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: red;
+  height: 250px;
+  width: 70%;
+  overflow: auto;
+  margin-bottom: 20px; }
+
+/* line 431, site.css.scss */
+.comment {
+  position: relative; }
+
+/* line 435, site.css.scss */
+.comment-body {
+  width: 30%;
+  position: absolute; }
+
+/* line 440, site.css.scss */
+.comment-right {
+  background: url("/images/comment_right.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: red;
+  height: 250px;
+  width: 70%;
+  overflow: auto;
+  margin-bottom: 20px; }
+
+/* line 453, site.css.scss */
+.product-header {
+  color: black !important; }

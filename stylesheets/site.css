@@ -387,41 +387,13 @@
   /* line 412, site.css.scss */
   .pagination li a {
     font-size: 9px !important; } }
-/* line 418, site.css.scss */
-.comment-left {
-  background: url("/images/comment_left.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: red;
-  height: 250px;
-  width: 70%;
-  overflow: auto;
-  margin-bottom: 20px; }
-
-/* line 431, site.css.scss */
-.comment {
-  position: relative; }
-
-/* line 435, site.css.scss */
-.comment-body {
-  width: 30%;
-  position: absolute; }
-
-/* line 440, site.css.scss */
-.comment-right {
-  background: url("/images/comment_right.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: red;
-  height: 250px;
-  width: 70%;
-  overflow: auto;
-  margin-bottom: 20px; }
-
-/* line 453, site.css.scss */
-.product-header {
-  color: black !important; }
+/* line 419, site.css.scss */
+.comments figure {
+  background: black;
+  border: 3px solid red;
+  color: #fff; }
+/* line 424, site.css.scss */
+.comments .panel-default {
+  border: 3px solid red;
+  background: black;
+  color: #fff; }

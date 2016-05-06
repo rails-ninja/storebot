@@ -429,3 +429,57 @@
 .btn-b-b {
   border-radius: 0 !important;
   border-bottom: 1px solid red !important; }
+
+/* line 462, site.css.scss */
+.cart-wrapper {
+  width: 120px;
+  height: 40px;
+  z-index: 9000;
+  position: absolute;
+  left: 57%;
+  top: 48%; }
+  /* line 465, site.css.scss */
+  .cart-wrapper .b-i {
+    width: 100% !important; }
+  /* line 468, site.css.scss */
+  .cart-wrapper h4 {
+    color: #fff;
+    line-height: 1px; }
+  /* line 472, site.css.scss */
+  .cart-wrapper a {
+    color: #fff;
+    font-size: 12px; }
+    /* line 475, site.css.scss */
+    .cart-wrapper a:hover {
+      text-decoration: none;
+      border-bottom: 2px solid red;
+      color: #fff;
+      cursor: pointer; }
+
+@media screen and (max-width: 1190px) {
+  /* line 490, site.css.scss */
+  .cart-wrapper {
+    width: 100px;
+    height: 40px;
+    z-index: 9000;
+    position: absolute;
+    left: 57%;
+    top: 48%; }
+    /* line 493, site.css.scss */
+    .cart-wrapper .b-i {
+      width: 100% !important; }
+    /* line 496, site.css.scss */
+    .cart-wrapper h4 {
+      color: #fff;
+      line-height: 1px;
+      font-size: 16px; }
+    /* line 501, site.css.scss */
+    .cart-wrapper a {
+      color: #fff;
+      font-size: 11px; }
+      /* line 504, site.css.scss */
+      .cart-wrapper a:hover {
+        text-decoration: none;
+        border-bottom: 2px solid red;
+        color: #fff;
+        cursor: pointer; } }

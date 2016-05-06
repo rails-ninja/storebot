@@ -483,18 +483,6 @@
   left: 5px;
   font-weight: bold !important; }
 
-@media screen and (max-width: 640px) {
-  /* line 526, site.css.scss */
-  .btn-minuse {
-    padding: 4px !important; }
-
-  /* line 530, site.css.scss */
-  .btn-pluss {
-    padding: 3px !important; }
-
-  /* line 534, site.css.scss */
-  .input-plus-minus {
-    height: 35px !important; } }
 /* line 540, site.css.scss */
 .product-grid-img {
   width: 100%; }

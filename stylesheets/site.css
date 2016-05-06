@@ -498,3 +498,8 @@
 /* line 540, site.css.scss */
 .product-grid-img {
   width: 100%; }
+
+/* line 544, site.css.scss */
+.text-wrapper {
+  background-color: #fff !important;
+  padding: 10px !important; }

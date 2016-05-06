@@ -330,27 +330,7 @@
   background-color: black !important;
   height: 36px !important; }
 
-/* line 350, site.css.scss */
-.btn-minuse {
-  color: red !important;
-  border: 2px solid red !important;
-  background-color: black !important;
-  border-radius: 0 !important;
-  position: relative;
-  left: -5px;
-  font-weight: bold !important; }
-
-/* line 360, site.css.scss */
-.btn-pluss {
-  color: red !important;
-  border: 2px solid red !important;
-  background-color: black !important;
-  border-radius: 0 !important;
-  position: relative;
-  left: 5px;
-  font-weight: bold !important; }
-
-/* line 374, site.css.scss */
+/* line 356, site.css.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -360,77 +340,77 @@
   line-height: 1.42857 !important;
   vertical-align: top !important; }
 
-/* line 384, site.css.scss */
+/* line 366, site.css.scss */
 .w-33 {
   width: 32.33333%; }
 
-/* line 389, site.css.scss */
+/* line 371, site.css.scss */
 .dropdown-menu li {
   border-bottom: 1px solid #fff !important; }
 
-/* line 394, site.css.scss */
+/* line 376, site.css.scss */
 .pagination li a {
   color: #fff !important;
   border-radius: 50% !important;
   margin: 0 5px !important;
   background-color: black !important;
   border: 2px solid #FF0000 !important; }
-  /* line 400, site.css.scss */
+  /* line 382, site.css.scss */
   .pagination li a:hover {
     opacity: 0.8; }
 
-/* line 405, site.css.scss */
+/* line 387, site.css.scss */
 .price {
   color: red !important; }
 
 @media screen and (max-width: 640px) {
-  /* line 410, site.css.scss */
+  /* line 392, site.css.scss */
   .pagination li a {
     font-size: 9px !important; } }
-/* line 415, site.css.scss */
+/* line 397, site.css.scss */
 .comments {
   margin-bottom: 50px; }
-  /* line 416, site.css.scss */
+  /* line 398, site.css.scss */
   .comments figure {
     background: black;
     border: 3px solid red;
     color: #fff; }
-  /* line 421, site.css.scss */
+  /* line 403, site.css.scss */
   .comments .panel-default {
     border: 3px solid red;
     background: black;
     color: #fff; }
 
-/* line 430, site.css.scss */
+/* line 412, site.css.scss */
 .icon-link:hover {
   text-decoration: none;
   cursor: pointer; }
 
-/* line 436, site.css.scss */
+/* line 418, site.css.scss */
 .fa.fa-star {
   color: black !important; }
-  /* line 438, site.css.scss */
+  /* line 420, site.css.scss */
   .fa.fa-star:hover {
     cursor: pointer !important; }
 
-/* line 443, site.css.scss */
+/* line 425, site.css.scss */
 .fa-star-o {
   color: black !important; }
-  /* line 445, site.css.scss */
+  /* line 427, site.css.scss */
   .fa-star-o:hover {
     color: red !important;
     cursor: pointer !important; }
 
-/* line 452, site.css.scss */
+/* line 434, site.css.scss */
 .product-header a {
   color: black !important; }
 
-/* line 457, site.css.scss */
+/* line 439, site.css.scss */
 .btn-b-b {
   border-radius: 0 !important;
   border-bottom: 1px solid red !important; }
 
-/* line 462, site.css.scss */
+/* line 444, site.css.scss */
 .cart-wrapper {
   width: 120px;
   height: 40px;
@@ -438,18 +418,18 @@
   position: absolute;
   left: 57%;
   top: 48%; }
-  /* line 465, site.css.scss */
+  /* line 447, site.css.scss */
   .cart-wrapper .b-i {
     width: 100% !important; }
-  /* line 468, site.css.scss */
+  /* line 450, site.css.scss */
   .cart-wrapper h4 {
     color: #fff;
     line-height: 1px; }
-  /* line 472, site.css.scss */
+  /* line 454, site.css.scss */
   .cart-wrapper a {
     color: #fff;
     font-size: 12px; }
-    /* line 475, site.css.scss */
+    /* line 457, site.css.scss */
     .cart-wrapper a:hover {
       text-decoration: none;
       border-bottom: 2px solid red;
@@ -457,7 +437,7 @@
       cursor: pointer; }
 
 @media screen and (max-width: 1190px) {
-  /* line 490, site.css.scss */
+  /* line 472, site.css.scss */
   .cart-wrapper {
     width: 100px;
     height: 40px;
@@ -465,21 +445,56 @@
     position: absolute;
     left: 57%;
     top: 48%; }
-    /* line 493, site.css.scss */
+    /* line 475, site.css.scss */
     .cart-wrapper .b-i {
       width: 100% !important; }
-    /* line 496, site.css.scss */
+    /* line 478, site.css.scss */
     .cart-wrapper h4 {
       color: #fff;
       line-height: 1px;
       font-size: 16px; }
-    /* line 501, site.css.scss */
+    /* line 483, site.css.scss */
     .cart-wrapper a {
       color: #fff;
       font-size: 11px; }
-      /* line 504, site.css.scss */
+      /* line 486, site.css.scss */
       .cart-wrapper a:hover {
         text-decoration: none;
         border-bottom: 2px solid red;
         color: #fff;
         cursor: pointer; } }
+/* line 505, site.css.scss */
+.btn-minuse {
+  color: red !important;
+  border: 2px solid red !important;
+  background-color: black !important;
+  border-radius: 0 !important;
+  position: relative;
+  left: -5px;
+  font-weight: bold !important; }
+
+/* line 515, site.css.scss */
+.btn-pluss {
+  color: red !important;
+  border: 2px solid red !important;
+  background-color: black !important;
+  border-radius: 0 !important;
+  position: relative;
+  left: 5px;
+  font-weight: bold !important; }
+
+@media screen and (max-width: 640px) {
+  /* line 526, site.css.scss */
+  .btn-minuse {
+    padding: 4px !important; }
+
+  /* line 530, site.css.scss */
+  .btn-pluss {
+    padding: 3px !important; }
+
+  /* line 534, site.css.scss */
+  .input-plus-minus {
+    height: 35px !important; } }
+/* line 540, site.css.scss */
+.product-grid-img {
+  width: 100%; }
